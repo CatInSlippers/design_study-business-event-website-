@@ -1,0 +1,101 @@
+.event-page {
+    background-color: #150e60;
+    background-image: url("/studic/pictures/Business+Event+Website.webp");
+}
+
+.naviagation {
+    display: flex;
+    padding-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10vh;
+    transition: 0.15s;
+}
+
+.naviagation .text-btn {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.naviagation .text-btn p a {
+    padding-right: 5vh;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.naviagation .text-btn p a:hover {
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+.naviagation .text-btn p a:visited {
+    color: white;
+}
+
+.naviagation .text-btn p a:active {
+    color: white;
+    text-decoration: none;
+    /* Removes underline */
+}
+
+.fast-forward-btn {
+    width: 70px;
+    cursor: pointer;
+}
+
+.fast-forward-btn:hover {
+    opacity: 75%;
+}
+
+.fast-forward-btn:active {
+    opacity: 50%;
+}
+
+.page-title {
+    color: #fdfff4;
+    position: relative;
+    height: 50%;
+    margin-bottom: 15vh;
+}
+
+.page-title #event-name {
+    font-size: 156px;
+    position: absolute;
+    left: 10vh;
+    top: 0;
+}
+
+.page-title #website-name {
+    font-size: 140px;
+    position: absolute;
+    right: 10vh;
+    bottom: 0;
+    right: 10vh;
+}
+
+.booking {
+    font-size: 18px;
+    font-weight: bolder;
+    background: none;
+    border: white solid 3px;
+    color: #ffffff;
+    padding: 2vh 5vh;
+    border-radius: 20px;
+    display: block;
+    /* Makes the button a block element */
+    margin: 0 auto;
+    /* Centers horizontally */
+}
+
+.booking:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.booking:active {
+    opacity: 0.75;
+}

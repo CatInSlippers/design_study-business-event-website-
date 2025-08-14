@@ -1,0 +1,50 @@
+.save-your-spot {
+    background-color: #150e60;
+    color: #cfe6ff;
+    position: relative;
+    display: flex;
+}
+
+.save-your-spot h1 {
+    font-size: 55px;
+    text-align: left;
+    width: 10vh;
+    padding-top: 25vh;
+    padding-bottom: 15vh;
+}
+
+.save-your-spot p {
+    font-size: 13.9px;
+}
+
+.save-your-spot .text {
+    position: absolute;
+    width: 50%;
+    right: 0;
+}
+
+.save-your-spot p {
+    width: 50vh;
+    line-height: 1.4;
+    margin-bottom: 10vh;
+}
+
+.save-your-spot button {
+    position: absolute;
+    left: 0;
+    border-color: #cfe6ff;
+    color: #cfe6ff;
+}
+
+.save-your-spot img {
+    width: 75vh;
+    height: 75vh;
+    display: block;
+    margin: auto;
+}
+
+.save-your-spot .image {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}

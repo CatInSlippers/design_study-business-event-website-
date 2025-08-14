@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.height {
+    height: 768px;
+}
+
+.speakers {
+    background-color: #cfe6ff;
+}
+
+p {
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-weight: bolder;
+}

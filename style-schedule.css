@@ -1,0 +1,44 @@
+.schedule {
+    background-color: #473dc6;
+}
+
+.schedule-title {
+    color: #ffffff;
+    font-size: 66px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 20vh;
+    padding-bottom: 15vh;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.s-container {
+    color: #ffffff;
+    text-align: center;
+    width: 50vh;
+}
+
+.day,
+.event {
+    font-size: 15.3px;
+}
+
+.date {
+    font-size: 42.6px;
+    margin-bottom: 6vh;
+}
+
+.time {
+    font-size: 15.3px;
+    font-weight: 200;
+    margin-bottom: 1vh;
+}
+
+.content hr {
+    margin-bottom: 6vh;
+}

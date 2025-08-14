@@ -1,0 +1,39 @@
+.speakers-title {
+    text-align: center;
+    padding-top: 20vh;
+    padding-bottom: 15vh;
+    color: #150e60;
+    font-size: 66px;
+    font-weight: 900;
+}
+
+.pic-and-dis {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pic {
+    width: 50vh;
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 5vh;
+}
+
+.disc {
+    color: #150e60;
+    margin-top: 5vh;
+    width: 50vh;
+    text-align: center;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 3vh;
+}
+
+.jobs {
+    font-size: 14px;
+    font-weight: normal;
+}
